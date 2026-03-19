@@ -1,0 +1,49 @@
+header {
+    background-color: rgb(90, 178, 90);
+    padding: 10px;
+}
+header h1 {
+    text-align: center;
+}
+footer {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(88, 176, 30);
+}
+footer p {
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+* {
+ font-family: 'Times New Roman', Times, serif;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li {
+    display: inline;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: yellowgreen;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul :hover {
+    background-color: aquamarine;
+}
+h2 {
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+
+}
